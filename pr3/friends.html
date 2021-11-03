@@ -3,23 +3,23 @@
 	<head>
 		<title>Друзі</title>
 		<meta charset="utf-8">
-	</head>	
-	<body>
-		<h1>Друзі Винничука Максима Петровича</h1>
-		<p><a href = "index.html">Назад на головну</a></p><style>
-			tr,th,td,table,caption {
-				border: 2px double red;
+		<style>
+			tr:nth-child(even){
+				background-color: grey;
+			}
+			tr,th,td,table {
+				border: 1px double black;
 				text-align: center;
 			}
 		</style>
+	</head>	
+	<body>
+		<h1>Друзі Винничука Максима Петровича</h1>
+		<p><a href = "index.html">Назад на головну</a></p>
 		<h2>Мої друзі</h2>
 		<table>
 			<caption>Дані друзів</caption>
 			<thead>
-				<style>
-					.qwe td:nth-child(odd) {
-						background-color: silver;
-				</style>
 				<tr>
 					<th>Прізвище</th>
 					<th>Ім'я</th>
@@ -29,28 +29,28 @@
 				</tr>		
 			</thead>
 			<tbody>
-				<tr class='qwe'>
+				<tr>
 					<td>Іванов</td>
 					<td>Іван</td>
 					<td>01.01.2001.</td>
 					<td>Шевченка 5</td>
 					<td>0987654321</td>	
 				</tr>
-				<tr class='qwe'>
+				<tr>
 					<td>Петров</td>
 					<td>Петро</td>
 					<td>02.02.2002.</td>
 					<td>Лесі Українки 10</td>
 					<td>0987654322</td>	
 				</tr>
-				<tr class='qwe'>
+				<tr>
 					<td>Іванов</td>
 					<td>Петро</td>
 					<td>03.03.2003.</td>
 					<td>Франка 20</td>
 					<td>0987654323</td>	
 				</tr>
-				<tr class='qwe'>
+				<tr>
 					<td>Петров</td>
 					<td>Іван</td>
 					<td>04.04.2004.</td>
